@@ -5,7 +5,6 @@ services:
     plan: free # optional (defaults to starter)
     branch: main # optional (defaults to master)
     numInstances: 1
-    healthCheckPath: /healthz
     name: your-app-ollama
     dockerContext: ./ollama
     dockerfilePath: ./ollama/Dockerfile

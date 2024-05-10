@@ -11,6 +11,6 @@ services:
     envVars:
       - key: OLLAMA_URL
         fromService:
-        name: your-app-ollama
-        type: pserv
-        property: hostport
+          name: your-app-ollama
+          type: pserv
+          property: hostport

@@ -9,7 +9,6 @@ services:
     name: your-app-ollama
     dockerContext: ./ollama
     dockerfilePath: ./ollama/Dockerfile
-    plan: starter
     envVars:
       - key: OLLAMA_URL
         fromService:

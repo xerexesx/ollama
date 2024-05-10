@@ -1,5 +1,5 @@
  - type: pserv
-    name: your-app-ollama
+    name: yourappollama
     region: oregon
     runtime: docker
     dockerContext: ./ollama
